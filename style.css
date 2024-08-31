@@ -14,6 +14,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     border-style: double;
     border-width: 3px;
     border-color: white;
@@ -52,11 +53,9 @@ a:hover {
 .column1 {
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
 }
 
 .column2 {
     display: flex;
     flex-direction: column;
-    margin-left: 23%;
 }
